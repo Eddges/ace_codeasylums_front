@@ -1,0 +1,57 @@
+.Container {
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Container .Logo {
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Container .Logo img {
+  width: 30%;
+}
+
+.Container .Explore {
+  width: 30%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: 500;
+  color: #1f2f38;
+  font-size: 1.2rem;
+}
+
+.Container .Explore ion-icon {
+  -webkit-transform: translateY(2px);
+          transform: translateY(2px);
+  margin-left: 5px;
+  color: #4e4e4e;
+}
+
+.Container .Explore ion-icon:hover {
+  cursor: pointer;
+}
+
+.Container .Explore span:hover {
+  cursor: pointer;
+}
+/*# sourceMappingURL=Navbar.module.css.map */
