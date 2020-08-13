@@ -1,0 +1,95 @@
+.Container {
+  width: 100%;
+  height: 580px;
+}
+
+.Container .EmptyDiv {
+  height: 80px;
+}
+
+.Container .Carousel {
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+
+.Container .Carousel .CarouselContent {
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  position: relative;
+}
+
+.Container .Carousel .CarouselContent img {
+  z-index: 0;
+  width: 100%;
+  -webkit-transform: translateY(-10%);
+          transform: translateY(-10%);
+  position: absolute;
+}
+
+.Container .Carousel .CarouselContent .CarouselGradient {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 10;
+  background-image: -webkit-gradient(linear, left top, right top, from(#012436), color-stop(#012436a6), to(transparent));
+  background-image: linear-gradient(to right, #012436, #012436a6, transparent);
+  background-image: -webkit-gradient(linear, left top, right top, from(black), color-stop(#000000de), to(transparent));
+  background-image: linear-gradient(to right, black, #000000de, transparent);
+}
+
+.Container .Carousel .CarouselContent .ContentDiv {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  z-index: 50 !important;
+}
+
+.Container .Carousel .CarouselContent .ContentDiv .Left {
+  width: 60%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-left: 5%;
+}
+
+.Container .Carousel .CarouselContent .ContentDiv .Left .Highlite {
+  color: #fdd053;
+}
+
+.Container .Carousel .CarouselContent .ContentDiv .Left span {
+  color: white;
+}
+
+.Container .Carousel .CarouselContent .ContentDiv .Left .Top {
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+.Container .Carousel .CarouselContent .ContentDiv .Left .Courses {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.Container .Carousel .CarouselContent .ContentDiv .Left .Schedule1 {
+  font-size: 1rem;
+  margin-top: 20px;
+}
+
+.Container .Carousel .CarouselContent .ContentDiv .Left .Schedule2 {
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+/*# sourceMappingURL=TopCarousel.module.css.map */

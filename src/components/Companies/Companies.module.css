@@ -1,0 +1,126 @@
+.Container {
+  width: 100%;
+  height: auto;
+  padding: 5% 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-size: contain;
+  position: relative;
+}
+
+.Companies {
+  width: 100%;
+  height: auto;
+  font-family: 'Roboto';
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.Companies .Line {
+  width: 30%;
+  height: 1px;
+  background-color: #707070;
+  margin-bottom: 25px;
+  margin-top: 10px;
+}
+
+.Companies p {
+  font-family: 'Raleway';
+  color: #3b3b3b;
+  font-weight: 500;
+  font-size: 1.7rem;
+  padding: 20px 0px;
+}
+
+.Companies .subquote {
+  font-family: 'Open Sans';
+  font-size: 0.9rem;
+  font-weight: 400;
+  padding: 0px 270px 20px 270px;
+  text-align: center;
+}
+
+.Companies .Logos {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0px 150px 100px 150px;
+}
+
+.Companies .Logos .Round {
+  margin: 20px 20px;
+  width: 150px;
+  height: 80px;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+}
+
+.Companies .Logos .Round img {
+  width: 80%;
+}
+
+@media (max-width: 576px) {
+  .Container {
+    margin: 0px;
+  }
+  .Container .Line {
+    width: 80%;
+    margin: 10px 0px;
+  }
+  .Container .Companies p {
+    font-size: 1.2rem;
+  }
+  .Container .Companies .Logos {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding: 20px 0px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .Container .Companies .Logos .Round {
+    margin: 10px;
+    padding: 0px;
+    width: 80px;
+    height: 80px;
+  }
+}
+/*# sourceMappingURL=Companies.module.css.map */

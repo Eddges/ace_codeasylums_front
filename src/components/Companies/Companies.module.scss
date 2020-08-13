@@ -1,0 +1,111 @@
+.Container{
+    width : 100%;
+    height : auto;
+    padding : 5% 0px;
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    // background-color:rgb(14, 2, 80) ;
+    // background-color: rgb(230, 230, 230);
+    // background-color: #f2f7fe;
+    // background: url('../../assets/corporate.jpg');
+    background-size: contain;
+    // background : linear-gradient(to bottom, #0e0250, #002366);
+    position: relative;
+    // .Gradient{
+    //     position: absolute;
+    //     width : 100%;
+    //     height: 100%;
+    //     background-color: black;
+    //     background-size: cover;
+    //     opacity: 0.4;
+    // }
+}
+
+.Companies{
+    width : 100%;
+    height : auto;
+    // background-color: #f2f7fe;
+    // background-color: white;
+    font-family: 'Roboto';
+    border-radius: 5px;
+    // box-shadow: 0px 0px 45px rgb(0, 26, 85);
+    // box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+    .Line{
+        width : 30%;
+        height : 1px;
+        background-color: rgb(112, 112, 112);
+        margin-bottom: 25px;
+        margin-top: 10px;
+    }
+    p{
+        font-family: 'Raleway';
+        color : rgb(59, 59, 59);
+        font-weight: 500;
+        font-size: 1.7rem;
+        padding : 20px 0px;
+    }
+    .subquote{
+        font-family: 'Open Sans';
+        font-size: 0.9rem;
+        font-weight: 400;
+        padding : 0px 270px 20px 270px;
+        text-align: center;
+    }
+    .Logos{
+        width : 100%;
+        // background-color: coral;
+        display : flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding : 0px 150px 100px 150px;
+        .Round{
+            margin : 20px 20px;
+            width : 150px;
+            height : 80px;
+            // border-radius: 5px;
+            background-color: white;
+            display : flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow : 0px 0px 8px rgba(0,0,0,0.2);
+            img{
+                width: 80%;
+            }
+        }
+    }
+}
+
+
+
+@media(max-width : 576px) {
+    .Container{
+        margin : 0px;
+        .Line{
+            width :80%;
+            margin : 10px 0px;
+        }
+        .Companies{
+            p{
+                font-size: 1.2rem;
+            }
+            .Logos{
+                flex-direction: row;
+                padding : 20px 0px;
+                align-items: center;
+                .Round{
+                    margin : 10px;
+                    padding : 0px;
+                    width : 80px;
+                    height : 80px;
+                }
+            }
+        }
+    }
+}

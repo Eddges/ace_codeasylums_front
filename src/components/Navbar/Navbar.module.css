@@ -8,10 +8,14 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background-color: white;
+  z-index: 500;
+  -webkit-box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.267);
+          box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.267);
 }
 
 .Container .Logo {
-  width: 20%;
+  width: 15%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -24,34 +28,96 @@
 }
 
 .Container .Logo img {
-  width: 30%;
+  width: 38%;
 }
 
-.Container .Explore {
-  width: 30%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+.Container .NavMid {
+  width: 55%;
+  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-weight: 500;
-  color: #1f2f38;
-  font-size: 1.2rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding-left: 10%;
 }
 
-.Container .Explore ion-icon {
+.Container .NavMid a {
+  margin-right: 40px;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  color: #585858;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.Container .NavMid a:hover {
+  cursor: pointer;
+  color: #255ca8;
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
+}
+
+.Container .NavMid a ion-icon {
   -webkit-transform: translateY(2px);
           transform: translateY(2px);
-  margin-left: 5px;
+}
+
+.Container .NavRight {
+  width: 30%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.Container .NavRight .Callback {
+  border: none;
+  background-color: white;
+  background-color: #255ca8;
+  padding: 12px 30px;
+  font-size: 14px;
+  color: white;
+  font-weight: 500;
+  border-radius: 5px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.Container .NavRight .Callback:hover {
+  cursor: pointer;
+  -webkit-transform: translateY(-4px);
+          transform: translateY(-4px);
+  background-color: #074666;
+}
+
+.Container .NavRight .Mentor {
+  border: none;
   color: #4e4e4e;
+  background-color: transparent;
+  padding: 8px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 5px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
-.Container .Explore ion-icon:hover {
+.Container .NavRight .Mentor:hover {
   cursor: pointer;
-}
-
-.Container .Explore span:hover {
-  cursor: pointer;
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
+  color: #255ca8;
 }
 /*# sourceMappingURL=Navbar.module.css.map */

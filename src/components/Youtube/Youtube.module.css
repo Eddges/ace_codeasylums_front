@@ -1,0 +1,86 @@
+.Youtube {
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+  background-color: white;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+.Youtube .video {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Youtube .video iframe {
+  width: 60%;
+  border-radius: 10px;
+}
+
+.Youtube .video .quote {
+  width: 60%;
+  text-align: justify;
+  margin-top: 20px;
+  font-family: "Raleway";
+  color: #505050;
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+
+.Youtube .video .name {
+  width: 60%;
+  text-align: right;
+  color: #464646;
+  font-family: 'Open Sans';
+  margin-top: 20px;
+  font-style: italic;
+}
+
+.Youtube .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50%;
+  font-family: 'Raleway';
+}
+
+.Youtube .content p {
+  width: 100%;
+  padding: 10px;
+}
+
+.Youtube .content .title {
+  font-family: 'Open Sans';
+  color: #3b3b3b;
+  font-weight: bold;
+  font-size: 1.7rem;
+}
+
+.Youtube .content .details {
+  font-family: 'Raleway';
+  font-size: 0.9rem;
+  padding-right: 150px;
+  color: #2e2e2e;
+  line-height: 1.8;
+}
+/*# sourceMappingURL=Youtube.module.css.map */

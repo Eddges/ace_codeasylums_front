@@ -1,0 +1,78 @@
+.Container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Container .Query {
+  margin-top: 50px;
+  font-size: 2rem;
+  color: white;
+  font-weight: 700;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.178);
+}
+
+.Container .Feedback {
+  color: white;
+  margin-top: 10px;
+  font-weight: 300;
+}
+
+.Container .Author {
+  font-weight: 600;
+  color: white;
+  font-size: 0.9rem;
+}
+
+.Container .Form {
+  padding-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Container .Form input {
+  height: 60px;
+  margin: 0px;
+  border: none;
+  border-right: 1px solid rgba(128, 128, 128, 0.342);
+  padding: 0px 20px;
+}
+
+.Container .Form .Name {
+  border-radius: 5px 0px 0px 5px;
+}
+
+.Container .Form .ScheduleButton {
+  border: none;
+  background-color: #0084ff;
+  color: white;
+  padding: 0px 50px;
+  border-radius: 0px 5px 5px 0px;
+  -webkit-box-shadow: 5px 0px 5px rgba(0, 0, 0, 0.109);
+          box-shadow: 5px 0px 5px rgba(0, 0, 0, 0.109);
+  font-weight: 600;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.Container .Form .ScheduleButton:hover {
+  cursor: pointer;
+  background-color: #006bcf;
+}
+
+.Container .DivLineHorizontal {
+  width: 50%;
+  height: 1px;
+  background-color: #a7a7a7;
+  margin-top: 50px;
+}
+/*# sourceMappingURL=Contact.module.css.map */
